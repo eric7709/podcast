@@ -473,7 +473,21 @@ export default function Home() {
   const [scrolled, setScrolled] = useState(false);
   const [saved, setSaved] = useState(false);
   const [themeIdx, setThemeIdx] = useState(-1);
-  const nextTheme = () => setThemeIdx((i) => (i >= THEMES.length - 1 ? -1 : i + 1));
+  const nextTheme = () => {
+    const n = themeIdx >= THEMES.length - 1 ? -1 : themeIdx + 1;
+    setThemeIdx(n);
+    try { localStorage.setItem("saner-theme", String(n)); } catch {}
+  };
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("saner-theme");
+      if (saved !== null) {
+        const n = Number(saved);
+        if (Number.isInteger(n) && n >= -1 && n < THEMES.length) setThemeIdx(n);
+      }
+    } catch {}
+  }, []);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
   const [video, setVideo] = useState<{ id: string; title: string } | null>(null);
