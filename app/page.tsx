@@ -84,7 +84,7 @@ const sponsors = ["Kuda", "Busha", "Paystack", "Jumia", "Flutterwave"];
 
 const guests = ["Founders", "Creators", "Doctors", "Athletes", "Artists", "Authors", "Investors", "Strangers"];
 
-const css = `@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=DM+Sans:wght@400;500;700&display=swap');
+const css = `@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&display=swap');
 :root {
   --plum: #1d1020;
   --plum-2: #2a1830;
@@ -96,7 +96,7 @@ const css = `@import url('https://fonts.googleapis.com/css2?family=Bricolage+Gro
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--fg); font-family: 'DM Sans', system-ui, sans-serif; line-height: 1.55; }
+body { background: var(--bg); color: var(--fg); font-family: inherit; line-height: 1.55; }
 a { color: inherit; text-decoration: none; }
 h1, h2, h3, .logo { font-family: 'Bricolage Grotesque', sans-serif; letter-spacing: -0.03em; line-height: 1; }
 :focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; }
@@ -186,7 +186,7 @@ blockquote { display: flex; flex-direction: column; justify-content: space-betwe
 blockquote p { font-family: 'Bricolage Grotesque', sans-serif; font-size: 26px; line-height: 1.15; letter-spacing: -0.02em; font-weight: 500; }
 cite { color: var(--pink); font-style: normal; font-weight: 700; font-size: 14px; }
 .review { background: var(--card); border-radius: 20px; padding: 28px; min-height: 0; }
-.review p { font-family: 'DM Sans', sans-serif; font-size: 18px; line-height: 1.5; letter-spacing: 0; font-weight: 400; }
+.review p { font-family: inherit; font-size: 18px; line-height: 1.5; letter-spacing: 0; font-weight: 400; }
 
 .watch { display: grid; grid-template-columns: 1.2fr 1fr; gap: 56px; align-items: center; }
 .video { aspect-ratio: 16/9; border-radius: 24px; background: linear-gradient(135deg, var(--pink), #8B5CF6); display: grid; place-items: center; }
@@ -252,7 +252,7 @@ details p { color: var(--mute); margin-top: 12px; max-width: 60ch; }
 .ecard .thumb { position: relative; margin: 0; border-radius: 0; aspect-ratio: 16/10; align-items: center; justify-content: center; }
 .ecard:hover .thumb { transform: none; }
 .big { font-size: 72px; font-weight: 800; letter-spacing: -0.04em; line-height: 1; opacity: .85; }
-.tag { position: absolute; top: 14px; left: 14px; background: rgba(29,16,32,.85); color: var(--cream); border-radius: 999px; padding: 4px 12px; font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; }
+.tag { position: absolute; top: 14px; left: 14px; background: rgba(29,16,32,.85); color: var(--cream); border-radius: 999px; padding: 4px 12px; font-family: inherit; font-size: 12px; font-weight: 500; }
 .ecard .body { padding: 22px; }
 .emeta { color: var(--mute); font-size: 13px; margin-bottom: 8px; }
 .ecard h3 { font-size: 22px; font-weight: 800; line-height: 1.1; margin-bottom: 10px; }
