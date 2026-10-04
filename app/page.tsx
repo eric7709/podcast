@@ -9,19 +9,19 @@ interface Episode { id: string; youtube: string; number: number; title: string; 
 const CAT: Record<string, string> = { Money: "#FF3E9A", Dating: "#FF8A3D", Careers: "#8B5CF6", Family: "#22C7A9", "Pop Culture": "#FFD23F", Opinions: "#4DA3FF" };
 
 const EPISODES: Episode[] = [
-  { id: "ep-142", youtube: "https://www.youtube.com/watch?v=IFXW9u65fWA&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 142, title: "The Financially Responsible Episode", description: "Ngozi Okonye joins the Bounce for a conversation about money, crypto, and building better financial habits. We also revisit our unfortunate past business ventures, snail and pig farming included.", guest: "Ngozi Okonye", guestRole: "Head of Brand, Busha", duration: "1h 12m", date: "Feb 18, 2026", category: "Money" },
-  { id: "ep-141", youtube: "https://www.youtube.com/watch?v=DyYI4WMKFlE&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 141, title: "Dating Apps Are a Scam (But We're Still On Them)", description: "From left-swiping on our soulmates to accidentally matching with our exes, we unpack why modern dating feels like a full-time job.", guest: "Solo", guestRole: "", duration: "58m", date: "Feb 11, 2026", category: "Dating" },
-  { id: "ep-140", youtube: "https://www.youtube.com/watch?v=8JqrgxFDYsk&pp=ygURb2dhIHBldGVyIHBvZGNhc3TSBwkJLQwBhyohjO8%3D", number: 140, title: "Career Pivots & Quarter-Life Crises", description: "If you've ever cried in a bathroom during a work event, this one is for you. We talk quitting, pivoting, and pretending to have it together.", guest: "Temi Otedola", guestRole: "Entrepreneur", duration: "1h 04m", date: "Feb 4, 2026", category: "Careers" },
-  { id: "ep-139", youtube: "https://www.youtube.com/watch?v=J7UBMZfhdu8&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 139, title: "Family Group Chats & Boundary Battles", description: "The aunties are typing. We discuss the art of saying no, keeping boundaries, and the politics of the family WhatsApp group.", guest: "Solo", guestRole: "", duration: "49m", date: "Jan 28, 2026", category: "Family" },
-  { id: "ep-138", youtube: "https://www.youtube.com/watch?v=58O0HgJL5Nc&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 138, title: "The Pop Culture Catch-Up", description: "From award shows to album drops, everything you missed while you were being a responsible adult.", guest: "Solo", guestRole: "", duration: "52m", date: "Jan 21, 2026", category: "Pop Culture" },
-  { id: "ep-137", youtube: "https://www.youtube.com/watch?v=Gv4Kn32T9c4&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 137, title: "Hot Takes & Hard Truths", description: "We asked you for your most controversial opinions. You delivered. We react. No filters, no apologies.", guest: "Solo", guestRole: "", duration: "1h 01m", date: "Jan 14, 2026", category: "Opinions" },
-  { id: "ep-136", youtube: "https://www.youtube.com/watch?v=tfqpdo_AW3w&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D", number: 136, title: "The Side Hustle Confessions", description: "Everyone has a side hustle and nobody is telling the whole story. We share the wins, the losses and the invoices that never got paid.", guest: "Solo", guestRole: "", duration: "55m", date: "Jan 7, 2026", category: "Money" },
+  { id: "ep-142", youtube: "https://www.youtube.com/watch?v=AltSlq83FpM", number: 142, title: "The Financially Responsible Episode", description: "Ngozi Okonye joins the Bounce for a conversation about money, crypto, and building better financial habits. We also revisit our unfortunate past business ventures, snail and pig farming included.", guest: "Ngozi Okonye", guestRole: "Head of Brand, Busha", duration: "1h 12m", date: "Feb 18, 2026", category: "Money" },
+  { id: "ep-141", youtube: "https://www.youtube.com/watch?v=d0SOqTDzCWM", number: 141, title: "Dating Apps Are a Scam (But We're Still On Them)", description: "From left-swiping on our soulmates to accidentally matching with our exes, we unpack why modern dating feels like a full-time job.", guest: "Solo", guestRole: "", duration: "58m", date: "Feb 11, 2026", category: "Dating" },
+  { id: "ep-140", youtube: "https://www.youtube.com/watch?v=39A3vJS0VY0", number: 140, title: "Career Pivots & Quarter-Life Crises", description: "If you've ever cried in a bathroom during a work event, this one is for you. We talk quitting, pivoting, and pretending to have it together.", guest: "Temi Otedola", guestRole: "Entrepreneur", duration: "1h 04m", date: "Feb 4, 2026", category: "Careers" },
+  { id: "ep-139", youtube: "https://www.youtube.com/watch?v=FeJE5iPXtsA", number: 139, title: "Family Group Chats & Boundary Battles", description: "The aunties are typing. We discuss the art of saying no, keeping boundaries, and the politics of the family WhatsApp group.", guest: "Solo", guestRole: "", duration: "49m", date: "Jan 28, 2026", category: "Family" },
+  { id: "ep-138", youtube: "https://www.youtube.com/watch?v=FxV86FznfcA", number: 138, title: "The Pop Culture Catch-Up", description: "From award shows to album drops, everything you missed while you were being a responsible adult.", guest: "Solo", guestRole: "", duration: "52m", date: "Jan 21, 2026", category: "Pop Culture" },
+  { id: "ep-137", youtube: "https://www.youtube.com/watch?v=DmbXiCamArQ", number: 137, title: "Hot Takes & Hard Truths", description: "We asked you for your most controversial opinions. You delivered. We react. No filters, no apologies.", guest: "Solo", guestRole: "", duration: "1h 01m", date: "Jan 14, 2026", category: "Opinions" },
+  { id: "ep-136", youtube: "https://www.youtube.com/watch?v=R2mkXB94wrU", number: 136, title: "The Side Hustle Confessions", description: "Everyone has a side hustle and nobody is telling the whole story. We share the wins, the losses and the invoices that never got paid.", guest: "Solo", guestRole: "", duration: "55m", date: "Jan 7, 2026", category: "Money" },
 ];
 
 /* ── YOUTUBE: each episode has a `youtube` field (full link or ID). Featured video below. ── */
 const parseYt = (s: string) => (s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/)?.[1] ?? s.trim());
 const CHANNEL = "https://www.youtube.com/@yourchannel";
-const FEATURED_INPUT = "https://www.youtube.com/watch?v=nXXb57B7ofA&pp=ygURb2dhIHBldGVyIHBvZGNhc3Q%3D"; // trailer / featured video link or ID
+const FEATURED_INPUT = "https://www.youtube.com/watch?v=nVWOAPke_2E"; // trailer / featured video link or ID
 const FEATURED_VIDEO = parseYt(FEATURED_INPUT);
 const thumbUrl = (id: string) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
 
@@ -36,7 +36,7 @@ const THEMES = [
 
 const CATS = ["All", ...Object.keys(CAT)];
 const NAV = [["Episodes", "#episodes"], ["Guests", "#guests"], ["Events", "#events"], ["Merch", "#merch"], ["About", "#about"]];
-const MERCH = [["The Quiet Parts Tee", "₦18,000", "#FF3E9A"], ["Season 8 Hoodie", "₦35,000", "#8B5CF6"], ["Bounce Tote", "₦9,500", "#FF8A3D"], ["Enamel Mug", "₦6,500", "#22C7A9"]];
+const MERCH = [["The Saner Side Tee", "₦18,000", "#FF3E9A"], ["Season 8 Hoodie", "₦35,000", "#8B5CF6"], ["Bounce Tote", "₦9,500", "#FF8A3D"], ["Enamel Mug", "₦6,500", "#22C7A9"]];
 const COLUMNS: Record<string, string[][]> = {
   Listen: [["Apple Podcasts", "https://podcasts.apple.com"], ["Spotify", "https://open.spotify.com"], ["YouTube", "https://youtube.com"], ["RSS Feed", "#"]],
   Explore: [["All Episodes", "#episodes"], ["Guests", "#guests"], ["Merch", "#merch"], ["Contact", "#"]],
@@ -71,7 +71,7 @@ const tour = [
 const reviews = [
   ["Like sitting with my funniest friends. I laugh out loud on the bus and do not care.", "Adaeze, Lagos"],
   ["The money episodes changed how I talk to my family. Honest and kind.", "Michael, Manchester"],
-  ["Finally a show that says the quiet part out loud, with receipts.", "Zainab, Abuja"],
+  ["Finally a show that says it plainly and still keeps me sane, with receipts.", "Zainab, Abuja"],
 ];
 
 const faqs = [
@@ -530,7 +530,7 @@ export default function Home() {
       <style dangerouslySetInnerHTML={{ __html: css }} />
       <header className={"top" + (scrolled ? " solid" : "")}>
         <div className="nav">
-          <a className="logo" href="#">The Quiet Parts</a>
+          <a className="logo" href="#">The Saner Side</a>
           <nav>{NAV.map(([l, h]) => (<a key={l} href={h}>{l}</a>))}</nav>
           <a className="btn btn-pink" href="#members">Listen now</a>
           <button className="burger" aria-label="Toggle menu" aria-expanded={open} onClick={() => setOpen(!open)}>{open ? "✕" : "☰"}</button>
@@ -545,7 +545,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="byline"><img className="face" src={HOST_PHOTO} alt="Oga Peter" /><p className="kicker">Hosted by Oga Peter · Season 8 is live · New episodes every Wednesday</p></div>
-        <h1>The quiet parts, out loud.</h1>
+        <h1>The saner side of the conversation.</h1>
         <p className="lede">One of the boldest podcasts around. Unfiltered conversations on pop culture, careers, money and the confusions of modern adulthood. Come for the banter. Stay for the hard truths.</p>
         <div className="ctas">
           <a className="btn btn-pink" href="#latest">Play latest episode</a>
@@ -630,7 +630,7 @@ export default function Home() {
       </section>
 
       <section id="guests" className="section">
-        <div className="head"><h2>Guests who said the quiet parts too</h2><a href="#">See everyone</a></div>
+        <div className="head"><h2>Guests who joined the conversation</h2><a href="#">See everyone</a></div>
         <div className="guests">
           {GUESTS.map((g) => (
             <a key={g.name} href="#" className="guest">
@@ -694,7 +694,7 @@ export default function Home() {
         <div className="grid">
           {MERCH.map(([n, price, c]) => (
             <a key={n} href="#" className="card">
-              <div className="thumb" style={{ background: c }}><span>QP</span></div>
+              <div className="thumb" style={{ background: c }}><span>SS</span></div>
               <h3>{n}</h3>
               <p>{price}</p>
             </a>
@@ -705,7 +705,7 @@ export default function Home() {
       <section id="about" className="section about">
         <div>
           <h2>Hosted by Oga Peter. One rule: say it plainly.</h2>
-          <p>The Quiet Parts is a weekly show, hosted by Oga Peter, where honest conversation meets big laughs. Each week we sit down with one guest, answer your dilemmas, and talk about work, money, love and family without the polish.</p>
+          <p>The Saner Side Podcast is a weekly show, hosted by Oga Peter, where honest conversation meets big laughs. Each week we sit down with one guest, answer your dilemmas, and talk about work, money, love and family without the polish.</p>
           <p>Come for the banter. Stay for the answers nobody else will give you.</p>
           <div className="facts">
             <div><b>142</b><span>episodes</span></div>
@@ -716,7 +716,7 @@ export default function Home() {
         </div>
         <div className="portrait">
           <div className="blob" />
-          <img src={HOST_PHOTO} alt="Oga Peter, host of The Quiet Parts" onDoubleClick={nextTheme} draggable={false} title="Double-tap to change the colour" />
+          <img src={HOST_PHOTO} alt="Oga Peter, host of The Saner Side Podcast" onDoubleClick={nextTheme} draggable={false} title="Double-tap to change the colour" />
           <span className="sticker">Oga Peter, host and founder</span>
           <span className="bubble">New episode every Wednesday</span>
           <span className="hint">Double-tap the photo to change the colour{themeIdx >= 0 ? ` · ${THEMES[themeIdx].name}` : ""}</span>
@@ -758,7 +758,7 @@ export default function Home() {
       <footer>
         <div className="fgrid">
           <div>
-            <a className="logo" href="#">The Quiet Parts</a>
+            <a className="logo" href="#">The Saner Side</a>
             <p>Unfiltered conversations on pop culture, careers, money and the confusions of modern adulthood. Hosted by Oga Peter.</p>
           </div>
           {Object.entries(COLUMNS).map(([t, links]) => (
@@ -769,7 +769,7 @@ export default function Home() {
           ))}
         </div>
         <div className="fbase">
-          <span>© {new Date().getFullYear()} The Quiet Parts by Oga Peter. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} The Saner Side Podcast by Oga Peter. All rights reserved.</span>
           <span><a href="#">Privacy</a> &nbsp; <a href="#">Terms</a></span>
         </div>
       </footer>

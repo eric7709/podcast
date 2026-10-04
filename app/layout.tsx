@@ -8,21 +8,21 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "The Quiet Parts with Oga Peter | Podcast",
+  title: "The Saner Side Podcast | Hosted by Oga Peter",
   description:
-    "The Quiet Parts is a weekly podcast hosted by Oga Peter. Honest conversations on pop culture, careers, money, love and family. New episodes every Wednesday.",
-  keywords: ["The Quiet Parts", "Oga Peter", "podcast", "Nigerian podcast", "pop culture", "money", "careers"],
+    "The Saner Side Podcast is a weekly podcast hosted by Oga Peter. Honest conversations on pop culture, careers, money, love and family. New episodes every Wednesday.",
+  keywords: ["The Saner Side Podcast", "Oga Peter", "podcast", "Nigerian podcast", "pop culture", "money", "careers"],
   authors: [{ name: "Oga Peter" }],
   openGraph: {
-    title: "The Quiet Parts with Oga Peter",
+    title: "The Saner Side Podcast with Oga Peter",
     description: "Honest conversations on pop culture, careers, money, love and family. New episodes every Wednesday.",
-    siteName: "The Quiet Parts",
+    siteName: "The Saner Side Podcast",
     type: "website",
-    images: [{ url: "/host.png", alt: "Oga Peter, host of The Quiet Parts" }],
+    images: [{ url: "/host.png", alt: "Oga Peter, host of The Saner Side Podcast" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Quiet Parts with Oga Peter",
+    title: "The Saner Side Podcast with Oga Peter",
     description: "Honest conversations on pop culture, careers, money, love and family.",
     images: ["/host.png"],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className="h-full ">
+    <html lang="en" className="h-full antialiased">
       <body className={`${poppins.className} min-h-full flex flex-col`}>
         {children}
       </body>
