@@ -460,6 +460,11 @@ body { transition: background-color .45s ease; }
   .modal { padding: 12px; }
   .frame { border-radius: 12px; }
 }
+
+/* hide scrollbars (page still scrolls) */
+html, body { scrollbar-width: none; -ms-overflow-style: none; }
+html::-webkit-scrollbar, body::-webkit-scrollbar, *::-webkit-scrollbar { display: none; width: 0; height: 0; }
+* { scrollbar-width: none; }
 `;
 
 export default function Home() {
